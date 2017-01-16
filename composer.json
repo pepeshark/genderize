@@ -3,7 +3,7 @@
     "description": "Laravel 5 extension of gender api.",
     "license": "MIT",
     "keywords": [
-        "laravel, genderize"
+        "laravel", "genderize"
     ],
     "authors": [
         {
