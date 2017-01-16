@@ -1,0 +1,14 @@
+{
+    "name": "pepe/genderize",
+    "description": "Laravel 5 extension of gender api.",
+    "authors": [
+        {
+            "name": "pepe",
+            "email": "metrojeans@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~4.0"
+    }
+}
