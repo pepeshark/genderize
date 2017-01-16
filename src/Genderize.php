@@ -42,7 +42,7 @@ class Genderize {
             ]);
 
             if ($getResult->getStatusCode() == "200") {
-                $getResult->json();
+                return $getResult->json();
             }
         }
 
