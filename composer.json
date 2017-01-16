@@ -1,6 +1,7 @@
 {
     "name": "pepe/genderize",
     "description": "Laravel 5 extension of gender api.",
+    "license": "MIT",
     "authors": [
         {
             "name": "pepe",
@@ -11,4 +12,5 @@
     "require": {
         "guzzlehttp/guzzle": "~4.0"
     }
+
 }
