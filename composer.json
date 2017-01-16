@@ -8,9 +8,10 @@
             "email": "metrojeans@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "guzzlehttp/guzzle": "4.0.0"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
 
 }
