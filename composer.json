@@ -2,6 +2,9 @@
     "name": "evilcorp/genderize",
     "description": "Laravel 5 extension of gender api.",
     "license": "MIT",
+    "keywords": [
+        "laravel, genderize"
+    ],
     "authors": [
         {
             "name": "pepe",
@@ -10,6 +13,10 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "4.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Evilcorp\\Genderize\\": "src"
+        }
     }
-
 }
