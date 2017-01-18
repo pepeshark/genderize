@@ -5,6 +5,7 @@ Package for Genderize API https://genderize.io/
 ## Installing Genderize
 
 ### Step 1: Add the stability
+composer.json
 ```php
 "minimum-stability": "dev",
 "prefer-stable" : true
