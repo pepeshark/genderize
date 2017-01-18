@@ -4,12 +4,18 @@ Package for Genderize API https://genderize.io/
 
 ## Installing Genderize
 
-### Step 1: Install Through Composer
+### Step 1: Add the stability
+```php
+"minimum-stability": "dev",
+"prefer-stable" : true
+```
+
+### Step 2: Install Through Composer
 ``` bash
 composer require evilcorp/genderize
 ```
 
-### Step 2: Add the ServiceProvider to provider
+### Step 3: Add the ServiceProvider to provider
 `app/config/app.php`
 ```php
 'provider' => [
@@ -19,7 +25,7 @@ composer require evilcorp/genderize
 ];
 ```
 
-### Step 3: Add the Facade to aliases
+### Step 4: Add the Facade to aliases
 `app/config/app.php`
 ```php
 'aliases' => [
@@ -29,12 +35,13 @@ composer require evilcorp/genderize
 ];
 ```
 
+
 ## Usage
 
 ```php
 use Genderize;
 
 print  Genderize::getGender('Peter');       // 'male'
-print  Genderize::getGender('Victoria');    // 'male'
+print  Genderize::getGender('Victoria');    // 'female'
 print  Genderize::getGender('asd');         // 'unknown'
 ```
